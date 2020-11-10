@@ -1,14 +1,14 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
 	<DebugType>Full</DebugType>
     <Platforms>AnyCPU;x64;x86</Platforms> 
     <Version>5.8.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Google.Apis.YouTube.v3" Version="1.46.0.1995" />
+    <PackageReference Include="Google.Apis.YouTube.v3" Version="1.49.0.2120" />
   </ItemGroup>
 
   <ItemGroup>

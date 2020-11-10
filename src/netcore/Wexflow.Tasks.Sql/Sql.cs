@@ -5,7 +5,7 @@ using System.Threading;
 using System.Xml.Linq;
 using System.Data.SqlClient;
 using Oracle.ManagedDataAccess.Client;
-using MySql.Data.MySqlClient;
+using MySqlConnector;
 using System.Data.SQLite;
 using Npgsql;
 using System.IO;

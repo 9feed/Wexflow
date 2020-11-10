@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
     <Platforms>AnyCPU;x86;x64</Platforms>
 	<Version>5.8.0</Version>
   </PropertyGroup>
@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="SharpScss" Version="1.5.0" />
+    <PackageReference Include="SharpScss" Version="2.0.0" />
   </ItemGroup>
 
   <ItemGroup>

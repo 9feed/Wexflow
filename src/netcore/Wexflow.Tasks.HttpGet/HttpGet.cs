@@ -33,7 +33,7 @@ namespace Wexflow.Tasks.HttpGet
                 var destFile = Path.Combine(Workflow.WorkflowTempFolder, string.Format("HttpGet_{0:yyyy-MM-dd-HH-mm-ss-fff}", DateTime.Now));
                 File.WriteAllText(destFile, result);
                 Files.Add(new FileInf(destFile, Id));
-                InfoFormat("GET request {0} executed whith success -> {1}", Url, destFile);
+                InfoFormat("GET request {0} executed with success -> {1}", Url, destFile);
             }
             catch (ThreadAbortException)
             {

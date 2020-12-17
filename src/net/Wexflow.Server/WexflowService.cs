@@ -1670,7 +1670,7 @@ namespace Wexflow.Server
                             new XElement(xn + "Parent", new XAttribute("id", parentId))));
                     }
 
-                    if (elseNodes.Count > 0)
+                    if (elseNodes.Count > 0) // Fix
                     {
                         xif.Add(xelse);
                     }
